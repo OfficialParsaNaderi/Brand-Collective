@@ -32,11 +32,11 @@ export default function Main() {
                     <SpecialOffers />
                 </section>
 
-                <section className="padding-x pl-15 py-20">
+                <section className="padding-x lg:pl-15 py-20">
                     <CustomerReviews />
                 </section>
 
-                <section className="padding-x sm:py-32 pl-15 py-16 w-full">
+                <section className="padding-x sm:py-32 lg:pl-15 py-16 w-full">
                     <Subscribe />
                 </section>
 
