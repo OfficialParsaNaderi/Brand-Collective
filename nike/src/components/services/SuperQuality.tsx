@@ -1,8 +1,9 @@
+import Image from "next/image.js";
+
 import Button from "@/src/components/ui/Button";
 
 import { arrowRight } from "@/public/assets/ts/icons";
 import { shoe8 } from "@/public/assets/ts/images";
-import Image from "next/image.js";
 
 export default function SuperQuality() {
     return (
@@ -34,5 +35,5 @@ export default function SuperQuality() {
                 </div>
             </section>
         </>
-    )
-}
+    );
+};

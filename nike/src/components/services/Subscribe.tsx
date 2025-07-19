@@ -1,9 +1,18 @@
-"use client"
+"use client";
+
+import { useState } from "react";
 
 import Button from "@/src/components/ui/Button";
 import Input from "../ui/Input";
 
 export default function Subscribe() {
+
+    const [Email, setEmail] = useState("");
+
+    function HandleEmail() {
+        console.log(Email);
+    };
+
     return (
         <section
             id='contact-us'
@@ -18,11 +27,12 @@ export default function Subscribe() {
                     type='text'
                     placeholder='Enter your email address'
                     className='input flex-1 min-w-0'
+                    onChange={(e) => setEmail(e.target.value)}
                 />
                 <div className='flex max-sm:justify-end items-center max-sm:w-full'>
-                    <Button label='Sign Up' fullWidth />
+                    <Button label='Sign Up' fullWidth onClick={HandleEmail} />
                 </div>
             </div>
         </section>
     );
-}
+};

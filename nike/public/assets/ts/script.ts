@@ -16,4 +16,4 @@ export {
     SpecialOffers,
     Subscribe,
     SuperQuality,
-}
+};

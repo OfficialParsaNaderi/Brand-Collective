@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
+
+import Image from "next/image";
 
 import { copyrightSign } from "@/public/assets/ts/icons";
 import { footerLogo } from "@/public/assets/ts/images";

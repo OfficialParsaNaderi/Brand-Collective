@@ -5,7 +5,7 @@ type TProps = {
     placeholder: string,
     className: string,
     onChange?: (event: ChangeEvent<HTMLInputElement>) => void,
-}
+};
 
 export default function Input({ type, placeholder, className, onChange }: TProps) {
     return (
@@ -17,5 +17,5 @@ export default function Input({ type, placeholder, className, onChange }: TProps
                 onChange={onChange}
             />
         </>
-    )
-}
+    );
+};

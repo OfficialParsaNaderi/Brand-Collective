@@ -14,7 +14,7 @@ import { bigShoe1 } from "@/public/assets/ts/images";
 
 export default function Hero() {
 
-    const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
+    const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
 
     return (
         <>
@@ -57,5 +57,5 @@ export default function Hero() {
 
             </section>
         </>
-    )
-}
+    );
+};

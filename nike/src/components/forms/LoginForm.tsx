@@ -1,12 +1,15 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { useRouter } from "next/navigation"
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
-import Image from "next/image"
-import Input from "../ui/Input"
-import Link from "next/link"
-import { headerLogo } from "@/public/assets/ts/images"
+import Link from "next/link";
+
+import Image from "next/image";
+
+import Input from "../ui/Input";
+
+import { headerLogo } from "@/public/assets/ts/images";
 
 export default function LoginForm() {
 
@@ -19,15 +22,15 @@ export default function LoginForm() {
         const UserData = {
             Email: Email,
             Password: Password
-        }
+        };
 
-        console.log(`Email : ${Email} \nPassword : ${Password}`)
+        console.log(`Email : ${Email} \nPassword : ${Password}`);
 
-        console.log(`Don't worry again, We have OBJECT form .! 😎💀`)
-        console.log(UserData)
+        console.log(`Don't worry again, We have OBJECT form .! 😎💀`);
+        console.log(UserData);
 
-        router.push("/")
-    }
+        router.push("/");
+    };
 
     return (
         <>
@@ -66,5 +69,5 @@ export default function LoginForm() {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};

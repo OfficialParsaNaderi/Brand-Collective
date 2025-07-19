@@ -5,9 +5,9 @@ type TProps = {
     imgURL: StaticImageData,
     label: string,
     subtext: string,
-}
+};
 
-const ServiceCard = ({ imgURL, label, subtext }: TProps) => {
+export default function ServiceCard({ imgURL, label, subtext }: TProps) {
     return (
         <>
             <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] bg-white mr-20 shadow-2xl px-10 py-16">
@@ -19,7 +19,5 @@ const ServiceCard = ({ imgURL, label, subtext }: TProps) => {
                 <p className="mt-3 break-words font-montserrat text-lg leading-normal text-slate">{subtext}</p>
             </div>
         </>
-    )
-}
-
-export default ServiceCard
+    );
+};

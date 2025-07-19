@@ -1,11 +1,14 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import Link from "next/link";
-import Input from "../ui/Input";
+
 import Image from "next/image";
+
+import Input from "../ui/Input";
+
 import { headerLogo } from "@/public/assets/ts/images";
 
 export default function RegisterForm() {
@@ -26,10 +29,10 @@ export default function RegisterForm() {
             Password
         };
 
-        console.log(`First Name : ${FirstName} \nLast Name : ${LastName} \nEmail : ${Email} \nPassword : ${Password}`)
+        console.log(`First Name : ${FirstName} \nLast Name : ${LastName} \nEmail : ${Email} \nPassword : ${Password}`);
 
-        console.log(`Don't worry, We have OBJECT form .! 😎💀`)
-        console.log(UserData)
+        console.log(`Don't worry, We have OBJECT form .! 😎💀`);
+        console.log(UserData);
 
         router.push("/");
 
@@ -41,7 +44,7 @@ export default function RegisterForm() {
                 <div className="Container w-full mx-auto flex justify-center items-center bg-gray-200 mt-30">
                     <div className="Content p-8">
                         <div className="Logo flex justify-center items-center mb-5">
-                            <Image src={headerLogo} alt="NikeLogo" title="NikeLogo" width={150} height={100} /> 
+                            <Image src={headerLogo} alt="NikeLogo" title="NikeLogo" width={150} height={100} />
                         </div>
                         <div className="Title text-start">
                             <h1 className="text-[20px] font-bold text-gray-800">Register</h1>
@@ -88,5 +91,5 @@ export default function RegisterForm() {
                 </div>
             </>
         </>
-    )
-}
+    );
+};

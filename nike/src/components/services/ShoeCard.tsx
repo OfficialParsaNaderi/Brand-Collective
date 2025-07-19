@@ -4,20 +4,20 @@ import { StaticImageData } from "next/image";
 interface ShoeImageProps {
     thumbnail: StaticImageData;
     bigShoe: StaticImageData;
-}
+};
 
 type TProps = {
     imgURL: ShoeImageProps;
     changeBigShoeImage: (newBigShoeImage: StaticImageData) => void;
     bigShoeImg: StaticImageData;
-}
+};
 
 export default function ShoeCard({ imgURL, changeBigShoeImage, bigShoeImg }: TProps) {
     const HandleClick = () => {
         if (bigShoeImg !== imgURL.bigShoe) {
             changeBigShoeImage(imgURL.bigShoe);
-        }
-    }
+        };
+    };
 
     return (
         <>
@@ -39,6 +39,5 @@ export default function ShoeCard({ imgURL, changeBigShoeImage, bigShoeImg }: TPr
                 </div>
             </div>
         </>
-    )
-
-}
+    );
+};

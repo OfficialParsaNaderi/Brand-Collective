@@ -7,9 +7,9 @@ type TProps = {
     imgURL: StaticImageData,
     name: string,
     price: string,
-}
+};
 
-const PopularProductCard = ({ imgURL, name, price }: TProps) => {
+export default function PopularProductCard ({ imgURL, name, price }: TProps){
     return (
         <div className='flex flex-1 flex-col w-full max-sm:w-full '>
             <Image src={imgURL} alt={name} className='w-[282px] h-[282px]' />
@@ -27,6 +27,4 @@ const PopularProductCard = ({ imgURL, name, price }: TProps) => {
             </p>
         </div>
     );
-}
-
-export default PopularProductCard;
+};

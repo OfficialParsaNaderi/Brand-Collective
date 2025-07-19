@@ -1,8 +1,10 @@
 "use client"
 
+import { useState } from "react";
+
 import Link from "next/link";
+
 import Image from "next/image";
-import { useState } from "react"; // Import useState for managing sidebar state
 
 import { headerLogo } from "@/public/assets/ts/images";
 import { hamburger } from "@/public/assets/ts/icons";
@@ -85,4 +87,4 @@ export default function Navbar() {
             </div>
         </>
     );
-}
+};
