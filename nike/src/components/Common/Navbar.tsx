@@ -25,9 +25,9 @@ export default function Navbar() {
                     </ul>
 
                     <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 pr-20">
-                        <Link href="./Register">Sign in</Link>
+                        <Link href="./Login">Sign in</Link>
                         <span>/</span>
-                        <Link href="/Login">Explore More</Link>
+                        <Link href="./Register">Sign up</Link>
                     </div>
 
                     <div className="hidden max-lg:block padding-x pr-15">
