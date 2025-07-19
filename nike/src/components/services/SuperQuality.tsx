@@ -29,7 +29,7 @@ export default function SuperQuality() {
                     </div>
                 </div>
 
-                <div className="flex-1 flex justify-center items-center ml-35 sm:mr-20 mt-15">
+                <div className="flex-1 flex justify-center items-center lg:ml-30 sm:mr-20 mt-15">
                     <Image src={shoe8} className="object-contain " width={650} height={622} alt="SQShoes" title="SQShoes" />
                 </div>
             </section>
