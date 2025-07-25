@@ -16,7 +16,7 @@ export default function Subscribe() {
     return (
         <section
             id='contact-us'
-            className='max-container grid justify-center items-center max-lg:flex-col gap-10'
+            className='grid justify-center items-center max-lg:flex-col gap-10'
         >
             <h3 className='text-4xl leading-[68px] font-palanquin font-bold whitespace-nowrap'>
                 Sign Up for <span className='text-red-400'>Updates</span> & Newsletter

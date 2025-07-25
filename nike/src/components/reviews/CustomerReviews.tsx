@@ -1,11 +1,11 @@
 import ReviewCard from "./ReviewCard";
 
-import { reviews } from "@/src/constant";
+import { reviews } from "@/src/mock/MockData";
 
 export default function CustomerReviews() {
     return (
         <>
-            <section className="max-container">
+            <section className="container-fluid">
                 <h3 className="font-palanquin text-center text-4xl font-bold">
                     What Our
                     <span className="text-red-400"> Customers </span>

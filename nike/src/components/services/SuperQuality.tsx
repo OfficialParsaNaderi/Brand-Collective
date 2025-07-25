@@ -8,7 +8,7 @@ import { shoe8 } from "@/public/assets/ts/images";
 export default function SuperQuality() {
     return (
         <>
-            <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-1 w-full max-container">
+            <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-1 w-full">
                 <div className="flex flex-1 flex-col">
                     <div className="relative  flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 pr-20">
                         <h2 className="font-palanquin mb-5 text-5xl capitalize font-bold lg:max-w-lg">

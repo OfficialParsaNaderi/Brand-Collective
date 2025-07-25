@@ -4,11 +4,11 @@ import Image from "next/image";
 
 import { copyrightSign } from "@/public/assets/ts/icons";
 import { footerLogo } from "@/public/assets/ts/images";
-import { footerLinks, socialMedia } from "@/src/constant";
+import { footerLinks, socialMedia } from "@/src/mock/MockData";
 
 export default function Footer() {
     return (
-        <footer className='Footer max-container'>
+        <footer className='Footer'>
             <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col pl-15 pr-15 pt-10'>
                 <div className='flex flex-col items-start'>
                     <Link href='/'>

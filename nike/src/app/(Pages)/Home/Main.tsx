@@ -12,37 +12,37 @@ export default function Main() {
 
             <main className="Main relative">
 
-                <section className="xl:padding-l wide:padding-r padding-b">
+                <section className="xl:padding-l wide:padding-r padding-b container max-w-[1600px] mx-auto">
                     <Hero />
                 </section>
 
-                <section className="padding-x pl-15 py-25 pt-50">
+                <section className="padding-x pl-15 py-25 pt-50 container max-w-[1600px] mx-auto">
                     <PopularProducts />
                 </section>
 
-                <section className="padding-x pl-15 py-20">
+                <section className="padding-x pl-15 py-20 container max-w-[1600px] mx-auto">
                     <SuperQuality />
                 </section>
 
-                <section className="padding-x pl-15 py-20">
+                <section className="padding-x pl-15 py-20 container max-w-[1600px] mx-auto">
                     <Services />
                 </section>
 
-                <section className="padding-x pl-15 py-20">
+                <section className="padding-x pl-15 py-20 container max-w-[1600px] mx-auto">
                     <SpecialOffers />
                 </section>
 
-                <section className="padding-x lg:pl-15 py-20">
+                <section className="padding-x lg:pl-15 py-20 container max-w-[1600px] mx-auto">
                     <CustomerReviews />
                 </section>
 
-                <section className="padding-x sm:py-32 lg:pl-15 py-16 w-full">
+                <section className="padding-x sm:py-32 lg:pl-15 py-16 w-full container max-w-[1600px] mx-auto">
                     <Subscribe />
                 </section>
 
             </main>
 
-            <section className="bg-black padding-x padding-t pb-16 max-container">
+            <section className="bg-black padding-x padding-t pb-16 container max-w-[1600px] mx-auto">
                 <Footer />
             </section>
 

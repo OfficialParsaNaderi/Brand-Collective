@@ -8,7 +8,7 @@ import Image from "next/image";
 
 import { headerLogo } from "@/public/assets/ts/images";
 import { hamburger } from "@/public/assets/ts/icons";
-import { navLinks } from "@/src/constant/index";
+import { navLinks } from "@/src/mock/MockData";
 
 export default function Navbar() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -20,7 +20,7 @@ export default function Navbar() {
     return (
         <>
             <header className="Header">
-                <nav className="flex justify-between items-center max-container">
+                <nav className="flex justify-between items-center container max-w-[1500px] mx-auto">
                     <Link href="/">
                         <Image src={headerLogo} className="m-0 w-[129px] h-[29px]" width={129} height={29} alt="HeaderLogo" title="HeaderLogo" />
                     </Link>

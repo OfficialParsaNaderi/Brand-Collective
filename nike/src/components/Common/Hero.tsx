@@ -8,7 +8,7 @@ import Button from "@/src/components/ui/Button";
 import ShoeCard from "@/src/components/services/ShoeCard";
 
 import { arrowRight } from "@/public/assets/ts/icons";
-import { shoes, statistics } from "@/src/constant";
+import { shoes, statistics } from "@/src/mock/MockData";
 
 import { bigShoe1 } from "@/public/assets/ts/images";
 
